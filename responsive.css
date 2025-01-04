@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-centre {
+   text-align: center; 
+}
+.bg-red {
+    background: red;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.button {
+    padding: 10px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 90px;
+    cursor: pointer;
+    width: 56px;
+    font-size: 23px;
+    box-shadow: 1px 5px 2px black;
+}
+.button:active {
+    transform: translatey(5px);
+    box-shadow: 0 1px rgb(0, 0, 0);
+}
+
+
+.styling {
+    background-color:rgb(242, 165, 10);
+    color: white;
+}
+
+.number {
+    background: rgb(58, 56, 56);
+    color: white;
+}
+.flex {
+   display: flex;
+   background-color: rgb(221, 179, 160);
+   width: 20%;
+   padding: 20px;
+   border-radius: 20px;
+}
+
+.flex-col {
+   flex-direction: column;
+}
+
+.item-centre {
+    align-items: center;
+}
+
+.row {
+    margin: 10px, 0;
+}
+
+.row input {
+    font-size: 38px;
+    margin: 10px;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 250px;
+}
+
+@media only screen and (max-width: 800px) {
+    .flex {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .flex {
+        width: 70%;
+    }
+}
